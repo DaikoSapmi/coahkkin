@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "code": "en",
+    "name": "English",
+    "nativeName": "English"
+  },
+  "common": {
+    "back": "Back",
+    "overview": "Overview",
+    "save": "Save",
+    "add": "Add",
+    "remove": "Remove",
+    "reset": "Reset",
+    "loading": "Loading system...",
+    "connecting": "Connecting to meeting system...",
+    "serverConnected": "Real-time server connected",
+    "language": "Language",
+    "broadcastLanguage": "Broadcast Language (Podium & Stream)",
+    "uiLanguage": "Your UI Language",
+    "on": "ON",
+    "off": "OFF",
+    "independent": "Independent",
+    "representative": "Representative"
+  },
+  "home": {
+    "defaultTitle": "Parliamentary Meeting Timer",
+    "subtitle": "Real-time speaking time system, party quotas, and broadcast graphics (OBS / vMix)",
+    "dashboardTitle": "1. Chair Dashboard (iPad / PC)",
+    "dashboardDesc": "Touch-friendly control panel to grant the floor, start/pause the timer, add main speeches and replies, and monitor party time quotas.",
+    "openDashboard": "Open control panel",
+    "adminTitle": "2. Configuration, Agenda & CSV Import",
+    "adminDesc": "Customize organization name and logo, import representatives and parties from CSV, and configure agenda items with individual or party quotas.",
+    "openAdmin": "Open administration",
+    "screensHeader": "Display Views for Hall and Video Streaming (OBS / vMix Browser Sources)",
+    "podiumTitle": "Passive Podium Display",
+    "podiumDesc": "Full-screen high-contrast display for the podium or hall. Shows large countdown, active speaker, next speakers, and party quotas.",
+    "lowerThirdTitle": "Lower Third (Streaming)",
+    "lowerThirdDesc": "Transparent 1920x1080 overlay with organization logo, speaker name, party color, and optional countdown.",
+    "agendaBugTitle": "Agenda Bug (Top Right Corner)",
+    "agendaBugDesc": "Transparent overlay placed in the top-right corner displaying the active agenda item number and title during streaming."
+  },
+  "speechTypes": {
+    "MAIN": "Main Speech",
+    "REPLY": "Reply",
+    "RESPONSE_TO_REPLY": "Response to Reply",
+    "shortMain": "Speech",
+    "shortReply": "Reply"
+  },
+  "debateTypes": {
+    "PARTY_QUOTA": "Party Quota Debate",
+    "INDIVIDUAL": "Individual Speaking Time",
+    "shortPartyQuota": "Party Quotas",
+    "shortIndividual": "Individual Time"
+  },
+  "dashboard": {
+    "lowerThirdBtn": "Lower Third",
+    "agendaBugBtn": "Agenda Bug (Corner)",
+    "onPodiumNow": "Currently on the Floor",
+    "noActiveSpeaker": "No active speaker selected",
+    "allocated": "Allocated",
+    "startTime": "Start Timer",
+    "pause": "Pause",
+    "nextSpeaker": "Next Speaker",
+    "plus30s": "+30 sec",
+    "minus30s": "-30 sec",
+    "partyQuotasTitle": "Party Quotas (Remaining Time)",
+    "debateFormLabel": "Debate Mode",
+    "resetQuotas": "Reset quotas",
+    "speakerListTitle": "Speaker Queue",
+    "emptyQueue": "The speaker queue is empty. Select a representative on the right to add a speech or reply.",
+    "giveFloor": "Grant Floor",
+    "registerRepTitle": "Add Speaker",
+    "searchPlaceholder": "Search name, party, or seat..."
+  },
+  "podium": {
+    "noAgendaSelected": "No agenda item selected",
+    "podiumFree": "The floor is open",
+    "timeIsUp": "Speaking time is up!",
+    "nextInQueue": "Next on the Speaker List",
+    "noMoreSpeakers": "No more registered speakers",
+    "remainingPartyQuotas": "Remaining Party Quotas"
+  },
+  "overlays": {
+    "speakingTime": "Time",
+    "currentItem": "Current Item"
+  },
+  "admin": {
+    "pageTitle": "Administration & Meeting Setup",
+    "goToDashboard": "Go to Chair Dashboard",
+    "orgSectionTitle": "Organization, Language & Stream Logo",
+    "orgNameLabel": "Organization Name",
+    "orgSubtitleLabel": "Meeting Title / Subtitle",
+    "orgLogoLabel": "Logo URL (displayed in Lower Third and Podium screen)",
+    "broadcastLanguageLabel": "Display language for Podium and Stream Overlays",
+    "saveProfileBtn": "Save Profile",
+    "csvSectionTitle": "CSV Import of Representatives and Parties",
+    "csvHelpText": "Upload a CSV file with columns Navn,Parti,Partiforkortelse,Partifarge,Tittel. A sample file (eksempel-representanter.csv) is included in the project root.",
+    "csvClickToSelect": "Click to select CSV file",
+    "csvSuccess": "Imported {{repCount}} representatives and {{partyCount}} parties from CSV!",
+    "csvError": "No valid rows found. Check that the CSV file contains 'Navn' and 'Parti' columns.",
+    "csvCurrentStats": "Registered representatives: {{repCount}} across {{partyCount}} parties.",
+    "agendaSectionTitle": "Agenda Items and Speaking Time Rules",
+    "caseNumberLabel": "Item No.",
+    "caseTitleLabel": "Item Title",
+    "caseTitlePlaceholder": "Annual budget review...",
+    "debateTypeLabel": "Debate Type",
+    "speechSecondsLabel": "Speech (sec)",
+    "addAgendaBtn": "Add Item"
+  }
+}

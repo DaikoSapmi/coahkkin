@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "code": "smj",
+    "name": "Lulesamisk (Julevsámegiella)",
+    "nativeName": "Julevsámegiella"
+  },
+  "common": {
+    "back": "Ruopptot",
+    "overview": "Bajelgovva",
+    "save": "Vuorkkit",
+    "add": "Lasedit",
+    "remove": "Sihkkut",
+    "reset": "Nolladit",
+    "loading": "Viettjá vuogádagáv...",
+    "connecting": "Tjanáduvvá tjåhkånusvuogádahkaj...",
+    "serverConnected": "Reálaájge server la tjanáduvvam",
+    "language": "Giella",
+    "broadcastLanguage": "Vuosádusgiella (Ságastimsadje & Strøm)",
+    "uiLanguage": "Duw šierbmagiella",
+    "on": "ALNNE",
+    "off": "gatjá",
+    "independent": "Sorrjameahttum",
+    "representative": "Ájras"
+  },
+  "home": {
+    "defaultTitle": "Tjåhkånus- ja Ságastimájggevuogádak",
+    "subtitle": "Reálaájge ságastimájggevuogádak, belludakkvota ja strømmagrafihkka (OBS / vMix)",
+    "dashboardTitle": "1. Tjåhkånusjådediddje stivrrimpanela (iPad / PC)",
+    "dashboardDesc": "Stivrrimpanela gånnå bágov vaddá, ájgev álggá/bisodit,asedit oajvveságastimijt ja replihkajt, ja tjuovvut belludagáj ságastimájgev.",
+    "openDashboard": "Raba stivrrimpanelav",
+    "adminTitle": "2. Hejostusá, Ássjelissta & CSV-sisaviedtjam",
+    "adminDesc": "Rievddadit organisasjåvnå namáv ja logov, viedtjat ájrasijt ja belludagájt CSV-fijlas, ja dahkat ássjelistav.",
+    "openAdmin": "Raba háldadimev",
+    "screensHeader": "Šierbmavuosádusá tjåhkånussaj ja videostrømmaj (OBS / vMix Browser Sources)",
+    "podiumTitle": "Ságastimsaje šierbma",
+    "podiumDesc": "Spiehkastis šierbmavuosádus ságastimsadjáj. Vuoset ságastimájgev, guhti ságas la, guhti la båhtte ja belludakkvotajt.",
+    "lowerThirdTitle": "Lower Third (Strømming)",
+    "lowerThirdDesc": "Tjadátjuovgge 1920x1080 grafihkka organisasjåvnnålogojn, ságastiddje namájn, belludakivnijn ja ságastimájgijn.",
+    "agendaBugTitle": "Ássjevuosádus (Badjen oalges tjiegan)",
+    "agendaBugDesc": "Tjadátjuovgge grafihkka badjen oalges tjiegan mij vuoset ájggoguovdásj ássjenummirav ja namáv."
+  },
+  "speechTypes": {
+    "MAIN": "Oajvveságastibme",
+    "REPLY": "Replihkka",
+    "RESPONSE_TO_REPLY": "Vásstádusreplihkka",
+    "shortMain": "Ságastibme",
+    "shortReply": "Replihkka"
+  },
+  "debateTypes": {
+    "PARTY_QUOTA": "Belludakkvota",
+    "INDIVIDUAL": "Aktugasj ságastimájgge",
+    "shortPartyQuota": "Belludakkvota",
+    "shortIndividual": "Aktugasj ájgge"
+  },
+  "dashboard": {
+    "lowerThirdBtn": "Lower Third",
+    "agendaBugBtn": "Ássjevuosádus (Tjiehka)",
+    "onPodiumNow": "Ságastimsajen dálla",
+    "noActiveSpeaker": "Ij akta ságastiddje válljiduvvam",
+    "allocated": "Juolloduvvam",
+    "startTime": "Álggit ájgev",
+    "pause": "Bisodit",
+    "nextSpeaker": "Båhtte ságastiddje",
+    "plus30s": "+30 sek",
+    "minus30s": "-30 sek",
+    "partyQuotasTitle": "Belludakkvota (Báhtjam ságastimájgge)",
+    "debateFormLabel": "Digástallamvuohke",
+    "resetQuotas": "Nolladit kvotajt",
+    "speakerListTitle": "Ságastiddjelissta",
+    "emptyQueue": "Ságastiddjelissta la guoros. Vállji ájrasav oalges bielen.",
+    "giveFloor": "Vatte bágov",
+    "registerRepTitle": "Tjále ájrasav ságastiddjelisstaj",
+    "searchPlaceholder": "Åtså namáv, belludagáv..."
+  },
+  "podium": {
+    "noAgendaSelected": "Ij akta ássje válljiduvvam",
+    "podiumFree": "Ságastimsadje la guoros",
+    "timeIsUp": "Ságastimájgge la nåhkåm!",
+    "nextInQueue": "Båhtte ságastiddjelisstan",
+    "noMoreSpeakers": "E li ienep tjáliduvvam ságastiddje",
+    "remainingPartyQuotas": "Báhtjam belludakkvota"
+  },
+  "overlays": {
+    "speakingTime": "Ságastimájgge",
+    "currentItem": "Ájggoguovdásj ássje"
+  },
+  "admin": {
+    "pageTitle": "Háldadibme & Tjåhkånusráhkadus",
+    "goToDashboard": "Manná stivrrimpanelaj",
+    "orgSectionTitle": "Organisasjåvnnå, Giella & Strømmalogo",
+    "orgNameLabel": "Organisasjåvnå namma",
+    "orgSubtitleLabel": "Tjåhkånusnamma / Vuolletjála",
+    "orgLogoLabel": "Logo URL",
+    "broadcastLanguageLabel": "Vuosádusgiella ságastimsadjáj ja strømmaj",
+    "saveProfileBtn": "Vuorkkit profijlav",
+    "csvSectionTitle": "CSV-sisaviedtjam (Ájrasa ja belludagá)",
+    "csvHelpText": "Viedtja CSV-fijlav kolonnaj Navn,Parti,Partiforkortelse,Partifarge,Tittel.",
+    "csvClickToSelect": "Diededä válljit CSV-fijlav",
+    "csvSuccess": "Sisaviedtjaduváj {{repCount}} ájrasa ja {{partyCount}} belludagá CSV-fijlas!",
+    "csvError": "E gávnnu dåhkálasj gurgadusá. Gehtja jut CSV-fijlan la \"Navn\" ja \"Parti\".",
+    "csvCurrentStats": "Registreriduvvam ájrasa dálla: {{repCount}} ({{partyCount}} belludagá).",
+    "agendaSectionTitle": "Ássjelissta ja Ságastimájggenjuolgadusá",
+    "caseNumberLabel": "Ássjenr.",
+    "caseTitleLabel": "Ássjenamma",
+    "caseTitlePlaceholder": "Jahkediedádus...",
+    "debateTypeLabel": "Digástallamvuohke",
+    "speechSecondsLabel": "Ságastibme (sek)",
+    "addAgendaBtn": "Lasedit ássjev"
+  }
+}

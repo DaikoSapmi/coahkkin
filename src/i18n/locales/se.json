@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "code": "se",
+    "name": "Nordsamisk (Davvisámegiella)",
+    "nativeName": "Davvisámegiella"
+  },
+  "common": {
+    "back": "Ruovttoluotta",
+    "overview": "Bajilgovva",
+    "save": "Vurke",
+    "add": "Lasit",
+    "remove": "Sihko",
+    "reset": "Nollasteapmi",
+    "loading": "Viežžá vuogádaga...",
+    "connecting": "Čanašuvvá čoahkkinvuogádahkii...",
+    "serverConnected": "Reálaáigge bálvá lea čanašuvvan",
+    "language": "Giella",
+    "broadcastLanguage": "Čájáhusgiella (Sárdnestuollu & Njuolggosátta)",
+    "uiLanguage": "Du šearbmagiella",
+    "on": "ALDE",
+    "off": " eret",
+    "independent": "Sorjjasmeahttun",
+    "representative": "Áirras"
+  },
+  "home": {
+    "defaultTitle": "Čoahkkin- ja Sárdneáigevuogádat",
+    "subtitle": "Reálaáigge sárdneáigevuogádat, bellodatkvotat ja njuolggosáttagrafihkka (OBS / vMix)",
+    "dashboardTitle": "1. Čoahkkinjođiheaddji stivrenpanel (iPad / PC)",
+    "dashboardDesc": "Stivrenpanel gos addá sáni, álggaha/bisseehtá sárdneáiggi, lasiha váldosáhkavuoruid ja replihkaid, ja čuovvu bellodagaid sárdneáiggi.",
+    "openDashboard": "Raba stivrenpanela",
+    "adminTitle": "2. Heivehusat, Áššelistu & CSV-sisafievrrideapmi",
+    "adminDesc": "Rievdat organisašuvnna nama ja logo, viečča áirasiid ja bellodagaid CSV-fiillas, ja ráhkada áššelisttu ja sárdneáigenjuolggadusaid.",
+    "openAdmin": "Raba hálddašeami",
+    "screensHeader": "Šearbmačájáhusat čoahkkimis ja njuolggosáddagis (OBS / vMix Browser Sources)",
+    "podiumTitle": "Sárdnestuolu šearbma",
+    "podiumDesc": "Ollesšearbmačájáhus sárdnestullui dahje čoahkkinsálii. Čájeha sárdneáiggi, gii lea ságas, gii lea vuorrolisttus ja bellodatkvotaid.",
+    "lowerThirdTitle": "Lower Third (Njuolggosátta)",
+    "lowerThirdDesc": "Čađačuovgi 1920x1080 grafihkka organisašuvnnalogoin, sárdneolbmo namain, bellodaga ivnnin ja sárdneáiggin.",
+    "agendaBugTitle": "Áššečájáhus (Badjin olgeš čiegas)",
+    "agendaBugDesc": "Čađačuovgi grafihkka badjin olgeš čiegas mii čájeha áigeguovdilis áššenummira ja áššenama njuolggosáddagis."
+  },
+  "speechTypes": {
+    "MAIN": "Váldosáhkavuorru",
+    "REPLY": "Replihkka",
+    "RESPONSE_TO_REPLY": "Vástádusreplihkka",
+    "shortMain": "Sáhkavuorru",
+    "shortReply": "Replihkka"
+  },
+  "debateTypes": {
+    "PARTY_QUOTA": "Bellodatkvota (Rámmaáigi)",
+    "INDIVIDUAL": "Oktagaslaš sárdneáigi",
+    "shortPartyQuota": "Bellodatkvotat",
+    "shortIndividual": "Oktagaslaš áigi"
+  },
+  "dashboard": {
+    "lowerThirdBtn": "Lower Third",
+    "agendaBugBtn": "Áššečájáhus (Čiehka)",
+    "onPodiumNow": "Sárdnestuolus dál",
+    "noActiveSpeaker": "Ii oktage sárdneolmmoš válljejuvvon",
+    "allocated": "Juolluduvvon",
+    "startTime": "Álggat áiggi",
+    "pause": "Bisseehte",
+    "nextSpeaker": "Boahtte sárdneolmmoš",
+    "plus30s": "+30 sek",
+    "minus30s": "-30 sek",
+    "partyQuotasTitle": "Bellodatkvotat (Báhcan sárdneáigi)",
+    "debateFormLabel": "Digaštallanvuohki",
+    "resetQuotas": "Nollasteapmi kvotaid",
+    "speakerListTitle": "Sárdnelistu",
+    "emptyQueue": "Sárdnelistu lea guoros. Vállje áirasa olgeš bealde lasihit sáhkavuoru dahje replihka.",
+    "giveFloor": "Atte sáni",
+    "registerRepTitle": "Čále áirasa sárdnelistui",
+    "searchPlaceholder": "Oza nama, bellodaga dahje stuolu..."
+  },
+  "podium": {
+    "noAgendaSelected": "Ii oktage ášši válljejuvvon",
+    "podiumFree": "Sárdnestuollu lea guoros",
+    "timeIsUp": "Sárdneáigi lea nohkan!",
+    "nextInQueue": "Boahtte sárdnelisttus",
+    "noMoreSpeakers": "Eai leat eambbo čálihan sárdneolbmot",
+    "remainingPartyQuotas": "Báhcan bellodatkvotat"
+  },
+  "overlays": {
+    "speakingTime": "Sárdneáigi",
+    "currentItem": "Áigeguovdilis ášši"
+  },
+  "admin": {
+    "pageTitle": "Hálddašeapmi & Čoahkkinráhkkanus",
+    "goToDashboard": "Mana čoahkkinjođiheaddji stivrenpanelii",
+    "orgSectionTitle": "Organisašuvdna, Giella & Njuolggosáttalogo",
+    "orgNameLabel": "Organisašuvnna namma",
+    "orgSubtitleLabel": "Čoahkkinnamma / Vuollečála",
+    "orgLogoLabel": "Logo URL (čájehuvvo Lower Third ja sárdnestuolu šearpmas)",
+    "broadcastLanguageLabel": "Čájáhusgiella sárdnestullui ja njuolggosáddagii",
+    "saveProfileBtn": "Vurke profiilla",
+    "csvSectionTitle": "CSV-sisafievrrideapmi (Áirasat ja bellodagat)",
+    "csvHelpText": "Viečča CSV-fiilla mas leat čuolddat Navn,Parti,Partiforkortelse,Partifarge,Tittel. Geahččalanfiila (eksempel-representanter.csv) gávdno projeavtta máhpas.",
+    "csvClickToSelect": "Coahkkal válljet CSV-fiilla",
+    "csvSuccess": "Sisafievrreduvvui {{repCount}} áirasa ja {{partyCount}} bellodaga CSV-fiillas!",
+    "csvError": "Eai gávdnon dohkálaš gurgadusat. Dárkkis ahte CSV-fiillas lea \"Navn\" ja \"Parti\".",
+    "csvCurrentStats": "Registrerejuvvon áirasat dál: {{repCount}} juohkásan {{partyCount}} bellodahkii.",
+    "agendaSectionTitle": "Áššelistu ja Sárdneáigenjuolggadusat",
+    "caseNumberLabel": "Áššenr.",
+    "caseTitleLabel": "Áššenamma",
+    "caseTitlePlaceholder": "Jahkedieđáhusa meannudeapmi...",
+    "debateTypeLabel": "Digaštallanvuohki",
+    "speechSecondsLabel": "Sáhkavuorru (sek)",
+    "addAgendaBtn": "Lasit ášši"
+  }
+}

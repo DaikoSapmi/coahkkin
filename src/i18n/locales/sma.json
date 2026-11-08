@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "code": "sma",
+    "name": "Sørsamisk (Åarjelsaemien)",
+    "nativeName": "Åarjelsaemien"
+  },
+  "common": {
+    "back": "Bååstede",
+    "overview": "uvteguvvie",
+    "save": "Vuartesjh",
+    "add": "Lissiehtidh",
+    "remove": "Vaalteme",
+    "reset": "Nolliehtidh",
+    "loading": " Systemem veedtjije...",
+    "connecting": "Tjåanghkoesystemese tjeakoes...",
+    "serverConnected": "Reala-tïjjen servere lea tjeakoes",
+    "language": "Gïele",
+    "broadcastLanguage": "Vuesehtimmiegïele (Soptsestimmiesijjie & Strööme)",
+    "uiLanguage": "Dov skjermegïele",
+    "on": "ALNE",
+    "off": "ij alne",
+    "independent": "Ij belliedahkese",
+    "representative": "Tjirkije"
+  },
+  "home": {
+    "defaultTitle": "Tjåanghkoe- jïh Soptsestimmietïjje",
+    "subtitle": "Soptsestimmietïjje, belliedahkekvoteh jïh ströömegrafihkke (OBS / vMix)",
+    "dashboardTitle": "1. Tjåanghkoeåvtehken stuvremepanele (iPad / PC)",
+    "dashboardDesc": "Stuvremepanele gusnie baakoem vedtedh, tïjjem aelkedh/bissedh, soptsestimmieh jïh replihkh lissiehtidh.",
+    "openDashboard": "Rïhpestidh stuvremepanelem",
+    "adminTitle": "2. Heevehtimmieh, Aamhteselistoe & CSV",
+    "adminDesc": "Organisasjovnen nommem jïh logoem jeatjahtehtedh, tjirkijh CSV-fiileste veedtjedh jïh aamhteselistoem tseegkedh.",
+    "openAdmin": "Rïhpestidh reeremem",
+    "screensHeader": "Skjermevuesehtimmieh tjåanghkosne jïh ströömesne (OBS / vMix Browser Sources)",
+    "podiumTitle": "Soptsestimmiesijjien skjerme",
+    "podiumDesc": "rievtes skjerme soptsestimmiesæjjan. Vuesehte tïjjem, gie soptseste, gie båetije jïh belliedahkekvoteh.",
+    "lowerThirdTitle": "Lower Third (Strööme)",
+    "lowerThirdDesc": "1920x1080 grafihkke organisasjovnelogoine, soptsestæjjan nommine, belliedahken klaerine jïh tïjjine.",
+    "agendaBugTitle": "Aamhtesevuesehtimmie (Bijjene jïh åelkies)",
+    "agendaBugDesc": "Grafihkke bijjene åelkies tjiehtjelisnie mij daaletje aamhtesenummerem jïh nommem vuesehte."
+  },
+  "speechTypes": {
+    "MAIN": "Aajmoe-soptsestimmie",
+    "REPLY": "Replihkke",
+    "RESPONSE_TO_REPLY": "Vaestiedimmie-replihkke",
+    "shortMain": "Soptsestimmie",
+    "shortReply": "Replihkke"
+  },
+  "debateTypes": {
+    "PARTY_QUOTA": "Belliedahkekvote",
+    "INDIVIDUAL": "Oktegs soptsestimmietïjje",
+    "shortPartyQuota": "Belliedahkekvoteh",
+    "shortIndividual": "Oktegs tïjje"
+  },
+  "dashboard": {
+    "lowerThirdBtn": "Lower Third",
+    "agendaBugBtn": "Aamhtese (Tjiehtjele)",
+    "onPodiumNow": "Soptsestimmiesijjesne daelie",
+    "noActiveSpeaker": "Ij gie akt soptsestæjja veeljeme",
+    "allocated": "Vedteme",
+    "startTime": "Aelkedh tïjjem",
+    "pause": "Bissedh",
+    "nextSpeaker": "Båetije soptsestæjja",
+    "plus30s": "+30 sek",
+    "minus30s": "-30 sek",
+    "partyQuotasTitle": "Belliedahkekvoteh (Baahceme tïjje)",
+    "debateFormLabel": "Digkiedimmievuekie",
+    "resetQuotas": "Kvoteh nolliehtidh",
+    "speakerListTitle": "Soptsestæjjalistoe",
+    "emptyQueue": "Soptsestæjjalistoe lea guoros. Veeljeme tjirkijem åelkies bealesne.",
+    "giveFloor": "Vedtedh baakoem",
+    "registerRepTitle": "Lissiehtidh tjirkijem",
+    "searchPlaceholder": "Ohtsedh nommem, belliedahkem..."
+  },
+  "podium": {
+    "noAgendaSelected": "Ij aamhtese veeljeme",
+    "podiumFree": "Soptsestimmiesijjie lea ledig",
+    "timeIsUp": "Soptsestimmietïjje lea nåhkeme!",
+    "nextInQueue": "Båetije soptsestæjjalistosne",
+    "noMoreSpeakers": "Ij leah jeatjah soptsestæjjah",
+    "remainingPartyQuotas": "Baahceme belliedahkekvoteh"
+  },
+  "overlays": {
+    "speakingTime": "Soptsestimmietïjje",
+    "currentItem": "Daaletje aamhtese"
+  },
+  "admin": {
+    "pageTitle": "Reereme & Tjåanghkoerïektedimmie",
+    "goToDashboard": "Vaedtsedh stuvremepanelese",
+    "orgSectionTitle": "Organisasjovne, Gïele & Logo",
+    "orgNameLabel": "Organisasjovnen nomme",
+    "orgSubtitleLabel": "Tjåanghkoenomme",
+    "orgLogoLabel": "Logo URL",
+    "broadcastLanguageLabel": "Vuesehtimmiegïele soptsestimmiesæjjan jïh ströömese",
+    "saveProfileBtn": "Vuartesjh profijlem",
+    "csvSectionTitle": "CSV-sisveedtjemasse (Tjirkijh jïh belliedahkh)",
+    "csvHelpText": "Veedtjedh CSV-fiilem kolonnigujmie Navn,Parti,Partiforkortelse,Partifarge,Tittel.",
+    "csvClickToSelect": "Diedtedh CSV-fiilem veeljedh",
+    "csvSuccess": "Veedtji {{repCount}} tjirkijh jïh {{partyCount}} belliedahkh CSV-fiileste!",
+    "csvError": "Ij gååvnese rïektes radh. Vuertedh ahte 'Navn' jïh 'Parti' leah meatan.",
+    "csvCurrentStats": "Tjirkijh daelie: {{repCount}} ({{partyCount}} belliedahkh).",
+    "agendaSectionTitle": "Aamhteselistoe jïh Soptsestimmietïjjh",
+    "caseNumberLabel": "Aamhtesenr.",
+    "caseTitleLabel": "Aamhtesenomme",
+    "caseTitlePlaceholder": "Budsjedte...",
+    "debateTypeLabel": "Digkiedimmievuekie",
+    "speechSecondsLabel": "Soptsestimmie (sek)",
+    "addAgendaBtn": "Lissiehtidh aamhtesem"
+  }
+}

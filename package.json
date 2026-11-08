@@ -1,0 +1,41 @@
+{
+  "name": "parlamentarisk-mote-timer",
+  "private": true,
+  "version": "1.1.0",
+  "description": "Flerspråklig sanntids møte-timer, taleliste, partikvotesystem og OBS/vMix strømme-overlays (nb, en, se, sma, smj).",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server/index.ts",
+    "dev:client": "vite",
+    "build": "tsc && vite build",
+    "start": "NODE_ENV=production tsx server/index.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "i18next": "^23.11.5",
+    "lucide-react": "^0.400.0",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^14.1.2",
+    "react-router-dom": "^6.24.0",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2",
+    "vite": "^5.3.1"
+  }
+}

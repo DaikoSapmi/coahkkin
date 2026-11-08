@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "code": "nb",
+    "name": "Norsk (Bokmål)",
+    "nativeName": "Norsk"
+  },
+  "common": {
+    "back": "Tilbake",
+    "overview": "Oversikt",
+    "save": "Lagre",
+    "add": "Legg til",
+    "remove": "Fjern",
+    "reset": "Nullstill",
+    "loading": "Laster system...",
+    "connecting": "Kobler til møtesystem...",
+    "serverConnected": "Sanntidsserver tilkoblet",
+    "language": "Språk",
+    "broadcastLanguage": "Visningsspråk (Sal & Strøm)",
+    "uiLanguage": "Ditt skjermspråk",
+    "on": "PÅ",
+    "off": "AV",
+    "independent": "Uavhengig",
+    "representative": "Representant"
+  },
+  "home": {
+    "defaultTitle": "Parlamentarisk Møte-Timer",
+    "subtitle": "Sanntids taletidssystem, partikvoter og kringkastingsgrafikk (OBS / vMix)",
+    "dashboardTitle": "1. Møteleder-dashboard (iPad / PC)",
+    "dashboardDesc": "Touch-vennlig kontrollpanel for å gi ordet, starte/pause nedtelling, legge til hovedinnlegg og replikker, samt overvåke partienes tildelte taletid.",
+    "openDashboard": "Åpne kontrollpanel",
+    "adminTitle": "2. Konfigurasjon, Saker & CSV-import",
+    "adminDesc": "Tilpass organisasjonsnavn og logo, importer representanter og partier fra CSV-fil, og sett opp saksliste med individuelle taletider eller partikvoter.",
+    "openAdmin": "Åpne administrasjon",
+    "screensHeader": "Skjermvisninger for sal og videostrømming (OBS / vMix Browser Sources)",
+    "podiumTitle": "Passiv Talerskjerm",
+    "podiumDesc": "Fullskjermsvisning for skjerm ved talerstol eller i møtesal. Viser stor nedtelling, aktiv taler, neste taler og partikvoter.",
+    "lowerThirdTitle": "Lower Third (Strømming)",
+    "lowerThirdDesc": "Transparent 1920x1080 overlegg med organisasjonslogo, talerens navn, partifarge og valgfri nedtelling.",
+    "agendaBugTitle": "Saksvisning (Øvre høyre hjørne)",
+    "agendaBugDesc": "Transparent overlegg plassert i øvre høyre hjørne som viser gjeldende saksnummer og tittel under strømming."
+  },
+  "speechTypes": {
+    "MAIN": "Hovedinnlegg",
+    "REPLY": "Replikk",
+    "RESPONSE_TO_REPLY": "Svarreplikk",
+    "shortMain": "Innlegg",
+    "shortReply": "Replikk"
+  },
+  "debateTypes": {
+    "PARTY_QUOTA": "Rammestyrt partikvote",
+    "INDIVIDUAL": "Individuell taletid",
+    "shortPartyQuota": "Partikvoter",
+    "shortIndividual": "Individuell tid"
+  },
+  "dashboard": {
+    "lowerThirdBtn": "Lower Third",
+    "agendaBugBtn": "Saksvisning (Hjørne)",
+    "onPodiumNow": "På talerstolen nå",
+    "noActiveSpeaker": "Ingen aktiv taler valgt",
+    "allocated": "Tildelt",
+    "startTime": "Start tid",
+    "pause": "Pause",
+    "nextSpeaker": "Neste taler",
+    "plus30s": "+30 sek",
+    "minus30s": "-30 sek",
+    "partyQuotasTitle": "Partikvoter (Gjenstående taletid)",
+    "debateFormLabel": "Debattform",
+    "resetQuotas": "Tilbakestill kvoter",
+    "speakerListTitle": "Taleliste",
+    "emptyQueue": "Talelisten er tom. Velg en representant til høyre for å tegne innlegg eller replikk.",
+    "giveFloor": "Gi ordet",
+    "registerRepTitle": "Tegn representant",
+    "searchPlaceholder": "Søk navn, parti eller sete..."
+  },
+  "podium": {
+    "noAgendaSelected": "Ingen sak valgt",
+    "podiumFree": "Talerstolen er ledig",
+    "timeIsUp": "Taletiden er ute!",
+    "nextInQueue": "Neste på talelisten",
+    "noMoreSpeakers": "Ingen flere inntegnede talere",
+    "remainingPartyQuotas": "Gjenstående partikvoter"
+  },
+  "overlays": {
+    "speakingTime": "Taletid",
+    "currentItem": "Pågående sak"
+  },
+  "admin": {
+    "pageTitle": "Administrasjon & Møteforberedelse",
+    "goToDashboard": "Gå til Møteleder-dashboard",
+    "orgSectionTitle": "Organisasjon, Språk & Strømmelogo",
+    "orgNameLabel": "Organisasjonsnavn",
+    "orgSubtitleLabel": "Møtetittel / Undertittel",
+    "orgLogoLabel": "Logo URL (vises i Lower Third og på talerskjerm)",
+    "broadcastLanguageLabel": "Visningsspråk for talerskjerm og strømme-overlays",
+    "saveProfileBtn": "Lagre profil",
+    "csvSectionTitle": "CSV-import av representanter og partier",
+    "csvHelpText": "Last opp en CSV-fil med kolonnene Navn,Parti,Partiforkortelse,Partifarge,Tittel. Det ligger en ferdig testfil (eksempel-representanter.csv) i rotmappen av prosjektet.",
+    "csvClickToSelect": "Klikk for å velge CSV-fil",
+    "csvSuccess": "Importerte {{repCount}} representanter og {{partyCount}} partier fra CSV!",
+    "csvError": "Fant ingen gyldige rader. Sjekk at CSV-filen har kolonnen \"Navn\" og \"Parti\".",
+    "csvCurrentStats": "Registrerte representanter nå: {{repCount}} fordelt på {{partyCount}} partier.",
+    "agendaSectionTitle": "Saksliste og Taletidsregler",
+    "caseNumberLabel": "Saksnr.",
+    "caseTitleLabel": "Sakstittel",
+    "caseTitlePlaceholder": "Behandling av årsrapport...",
+    "debateTypeLabel": "Debattype",
+    "speechSecondsLabel": "Innlegg (sek)",
+    "addAgendaBtn": "Legg til sak"
+  }
+}
